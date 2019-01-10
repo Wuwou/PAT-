@@ -16,7 +16,7 @@ reverse(s.begin(), s.end());  //s = "fdsa"
 int a[5] = { 1,2,3,4,5 };
 reverse(a[0], a[5]);          //犯错。。。怎样用下标？疑问：似乎只能对string类型才可以用reverse
 char s[]="hello";
-strrev(s);                    //s[] = "olleh"
+_strrev(s);                    //s[] = "olleh"
 ```
 
 - 数组初始化的误区及fill()和fill_n()的用法
