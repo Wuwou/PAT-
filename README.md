@@ -4,14 +4,15 @@
 - algorithm中的max_element，min_element
 >这两个函数返回的是位置指针，*max_element可以获得最大值
 ```c++
+int len[10] = {1,2,3,4,5,6,7,8,8,9};
 int max;
-max = (*max_element(len, len + 100));//len为定义好的数组
+max = (*max_element(len, len + 100));//这时候，max值为9
 ```
+- reverse()很好用
+
 # 一级标题
 ## 二级标题
 ### 三级标题
-
-
 
 > 这是第一级引用。
 >
