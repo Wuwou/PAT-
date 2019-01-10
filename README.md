@@ -3,13 +3,10 @@
 >将括号（）内的内容转换为字符串string类型
 - algorithm中的max_element，min_element
 >这两个函数返回的是位置指针，*max_element可以获得最大值
-
-
-
-
-
-
-
+```c++
+int max;
+max = (*max_element(len, len + 100));//len为定义好的数组
+```
 # 一级标题
 ## 二级标题
 ### 三级标题
@@ -32,7 +29,7 @@
     
 - [ ] 不勾选
 - [x] 勾选
-    ```ruby
+```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
