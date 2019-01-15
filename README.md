@@ -22,6 +22,12 @@ _strrev(s);                    //s[] = "olleh"
 - 数组初始化的误区及fill()和fill_n()的用法
 ```c++
 int a[10] = {9}; //a[10] = {9,0,0,0,0,0,0,0,0,0,0};
+int main()
+{
+    int a[20];
+    std::memset(a, 0, sizeof a);
+    for (int ai : a) std::cout << ai;
+}
 此时可以用fill(first,last,value) or fill_n(first, size, value)
 eg：
 vector<int>　myvector (8,10);     // myvector: 10 10 10 10 10 10 10 10
