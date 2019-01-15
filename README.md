@@ -30,6 +30,7 @@ fill_n (myvector.begin()+3,3,33); // myvector: 20 20 20 33 33 33 10 10
 fill(myvector, myvector+8, 10);   // myvector: 10 10 10 10 10 10 10 10
 ```
 - strump属于头文件string.h
+- 在比较字符数组的时候用strump，不能直接用等于来比较
 
 
 
