@@ -6,7 +6,7 @@
 ```c++
 int len[10] = {1,2,3,4,5,6,7,8,8,9};
 int max;
-max = (*max_element(len, len + 100));//这时候，max值为9
+max = (*max_element(len, len + 10));//这时候，max值为9
 ```
 - reverse()，_strrev()函数
 > reverse()实现对字符串的反转，对字符数组无效。_strrev()实现对字符数组的反转，对字符串无效
