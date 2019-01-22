@@ -37,8 +37,7 @@ fill(myvector, myvector+8, 10);   // myvector: 10 10 10 10 10 10 10 10
 ```
 - strump属于头文件string.h
 - 在比较字符数组的时候用strump，不能直接用等于来比较
-
-
+- partiton is too hard for me T.T
 
 
 
