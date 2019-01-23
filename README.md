@@ -40,7 +40,13 @@ fill(myvector, myvector+8, 10);   // myvector: 10 10 10 10 10 10 10 10
 - partiton is too hard for me T.T
 - 关于字符串与数字之间的转换，可以用to_string（）和stoi（）函数，这样可以不用写出复杂的转换函数
 - double类型，scanf用lf%，printf用f%
-
+- 最大公约数gcb（）
+```
+int gcd(int a, int b)
+{
+    return !b ? a : gcd(b, a  % b);
+}
+```c++
 
 
 
