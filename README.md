@@ -48,6 +48,18 @@ int gcd(int a, int b)
 }
 ```
 - sqrt(float x)注意类型不要弄错
+```c++
+In C++11 you can write:
+for (auto& it : s) {
+    cout << it << endl;
+}
+instead of
+
+for (auto it = s.begin(); it != s.end(); it++) {
+    cout << *it << endl;
+}
+It has the same meaning.
+```
 
 
 # 一级标题
