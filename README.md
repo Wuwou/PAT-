@@ -47,7 +47,7 @@ int gcd(int a, int b)
     return !b ? a : gcd(b, a  % b);
 }
 ```
-
+- sqrt(float x)注意类型不要弄错
 
 
 # 一级标题
