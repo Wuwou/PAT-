@@ -60,7 +60,7 @@ for (auto it = s.begin(); it != s.end(); it++) {
 }
 It has the same meaning.
 ```
-
+- 用printf输出‘%’的时候用两个百分号%%，这样才可以输出%这个符号
 
 # 一级标题
 ## 二级标题
