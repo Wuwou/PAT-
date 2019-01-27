@@ -64,7 +64,19 @@ It has the same meaning.
 - 有什么方法可以上实现用printf输出string类型的字符串呢？——使用c_str()函数可以
 > 返回指向以null结尾的字符数组的指针，该数组的数据等效于存储在字符串中的数据
 - map会实现自动排序
--std::isalnum
+-std::isalnum用来判断字符是否是alphanumeric character，即0~9，A~Z， a~z
+>头文件 <cctype>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 # 一级标题
 ## 二级标题
 ### 三级标题
