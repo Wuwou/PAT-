@@ -66,9 +66,32 @@ It has the same meaning.
 - map会实现自动排序
 -std::isalnum用来判断字符是否是alphanumeric character，即0~9，A~Z， a~z
 >头文件 <cctype>
-- 学习到stack
     
+-结构体初始化时进行比较
     
+```c++
+    struct fruit {
+	string name;
+	int price;
+}f1, f2, f3;
+struct cmp {
+	bool operator()  (fruit f1, fruit f2) {
+		return f1.price > f2.price;
+	}
+};
+```
+    
+或者是
+```c++
+struct fruit {
+	string name;
+	int price;
+	friend bool operator < (fruit f1, fruit f2) {
+		return f1.price < f2.price;
+	}
+};
+
+```
 -- > 用什么来拯救我濒临死亡的c++
     
     
