@@ -93,8 +93,12 @@ struct fruit {
 
 ```
 -- > 用什么来拯救我濒临死亡的c++
-    
-    
+- 有两种申请分配内存的方法：malloc和new（两者是运算符，不是函数）
+在c中使用malloc运算符(free去释放)，即typename* p = (typename*) malloc (sizeof(typename));
+在c++中使用new运算符(delete去释放)会方便很多，即typename* p = new typename;
+eg:
+int* p = (int*)malloc(sizeof(int));
+int* p = new int;
     
     
     
