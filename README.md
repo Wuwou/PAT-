@@ -64,10 +64,10 @@ It has the same meaning.
 - 有什么方法可以上实现用printf输出string类型的字符串呢？——使用c_str()函数可以
 > 返回指向以null结尾的字符数组的指针，该数组的数据等效于存储在字符串中的数据
 - map会实现自动排序
--std::isalnum用来判断字符是否是alphanumeric character，即0~9，A~Z， a~z
+- std::isalnum用来判断字符是否是alphanumeric character，即0~9，A~Z， a~z
 >头文件 <cctype>
     
--结构体初始化时进行比较
+- 结构体初始化时进行比较
     
 ```c++
     struct fruit {
@@ -99,8 +99,7 @@ struct fruit {
 eg:
 int* p = (int*)malloc(sizeof(int));
 int* p = new int;
-    
-    
+- 在吸收换行符时，一般都是用getchar()函数来吸收，但是还有一种可以吸收,即cin.ignore();
     
     
     
