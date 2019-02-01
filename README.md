@@ -100,7 +100,7 @@ eg:
 int* p = (int*)malloc(sizeof(int));
 int* p = new int;
 - 在吸收换行符时，一般都是用getchar()函数来吸收，但是还有一种可以吸收,即cin.ignore();
-    
+   vector<vector<int> > a(m, vector<int>(n, 0)); 
     
     
     
