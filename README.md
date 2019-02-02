@@ -100,9 +100,9 @@ eg:
 int* p = (int*)malloc(sizeof(int));
 int* p = new int;
 - 在吸收换行符时，一般都是用getchar()函数来吸收，但是还有一种可以吸收,即cin.ignore();
-   vector<vector<int> > a(m, vector<int>(n, 0)); 
-    
-    
+- 回忆定义二维数组的方法 vector<vector<int> > a(m, vector<int>(n, 0)); 
+- 使用queue时会有许多使用不当的错误。
+    元素入队后不能进行修改
     
     
     
