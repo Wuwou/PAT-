@@ -106,7 +106,15 @@ int* p = new int;
     
  - memset函数经常用错，只能初始化字符，对于int数组就用fill函数
  写BST树的算法的时候，牢记树的中序遍历是有序的
- 
+- 结构体构造函数
+```c++
+struct Node{
+    int v, w;
+    Node(int a, int b): v(a), w(b) {}
+}
+
+
+```
  
  
     
