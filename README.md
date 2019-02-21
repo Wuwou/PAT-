@@ -115,6 +115,7 @@ struct Node{
 
 
 ```
+- 今天写max_element出错。函数max_element(first， last)中的两个参数应该是指针，在int型数组中，用max_element(a, a+size);在vector中，用max_element(v.begin(), v.end())
  
  
     
