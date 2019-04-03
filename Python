@@ -41,4 +41,36 @@ Checking for truthiness:
 ...     print("There 's no data!")
 ...
 There 's no data!
+   
+Loop://循环
+>>> for ch in "CS41":
+...     print(ch)
+...
+C
+S
+4
+1
+
+
+range:
+range(2, 12, 3) // generate 2, 5, 8, 11
+range(stop) or range(start, stop[,step])
+eg:
+>>> for n in range(2, 10):
+...     if n == 6:
+...             break
+...     print(n, end=', ')
+...
+2, 3, 4, 5, >>>
+
+>>> for letter in "STELLAR":
+...     if letter in "LE":
+...             continue
+...     print(letter, end='*')
+...
+S*T*A*R*>>>
+
+
+
+
 
