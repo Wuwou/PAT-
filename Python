@@ -5,3 +5,10 @@
 布尔运算中的与或非 eg：not True
                      True and False
                      True or False
+s = 'Arthur'
+s[1:5:2] == 'rh'
+s[4::-2] = 'utA'
+s[::-1' == 'ruhtrA' // 翻转字符串
+nested lists 很强大， 可以容纳everything eg:numbers = [2, 3, 5]
+                                           letters = ['a', 'b', 'c', 'd']
+                                           combo = [letters, numbers]
