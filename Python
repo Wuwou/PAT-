@@ -12,3 +12,33 @@ s[::-1' == 'ruhtrA' // 翻转字符串
 nested lists 很强大， 可以容纳everything eg:numbers = [2, 3, 5]
                                            letters = ['a', 'b', 'c', 'd']
                                            combo = [letters, numbers]
+General Query:Length(len)
+'y' in "python"   # => True
+Console I/O:
+eg: name = input ("What is your name?")
+What is your name?wuyou
+    print("i'm Python. Nice to meet you,", name)
+i'm Python. Nice to meet you, wuyou
+Control Flow:
+word = input("Please enter a word: ")
+    Please enter a word: asdf
+ if word == reversed_word:
+...     print("you entered a palindrome")
+...
+>>> if word == reversed_word:
+...     print("you entered a palindrome")
+... else:
+...     print("you did not enter a palindrome")
+...
+you did not enter a palindrome
+ 
+ 检查是否为空
+Checking for truthiness:
+>>> data = []
+>>> if data:
+...     process(data)
+... else:
+...     print("There 's no data!")
+...
+There 's no data!
+
