@@ -1,0 +1,7 @@
+除数取商    eg：7//2
+除数取余    eg: 7%2
+指数        eg：2**4 表示2的4次方
+布尔运算中的首字母要大写 eg：True False
+布尔运算中的与或非 eg：not True
+                     True and False
+                     True or False
