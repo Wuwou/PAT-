@@ -77,3 +77,6 @@ string到list
 '03-30-2016'.split(sep='-') # => ['03', '30', '2016'] 
 # `join` creates a string from a list (of strings) 
 ', '.join(['Eric', 'John', 'Michael']) # => "Eric, John, Michael
+
+
+串是不能改变的，但是列表可以改变
